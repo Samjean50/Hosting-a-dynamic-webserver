@@ -21,38 +21,38 @@ This mini project demonstrates how to host a dynamic web application on AWS usin
   
 * Test the Docker image locally to ensure the web app runs successfully within a container.
 
-![first](images/firstcopy.png)
-![docker](images/3.png)
-![docker](images/3.6.png)
-![docker](images/3.7.png)
-![docker](images/3.8.png)
-![docker](images/6.png)
+![first](firstcopy.png)
+![docker](3.png)
+![docker](3.6.png)
+![docker](3.7.png)
+![docker](3.8.png)
+![docker](6.png)
 ## Task 2: Terraform Module for Amazon ECR
 * Write a Terraform module (modules/ecr/main.tf) to create an Amazon ECR repository for storing Docker images.
 
-![docker](images/8.png)
+![docker](8.png)
 
 * Login to the aws ecr and Tag your docker image image
-![docker](images/3.8.png)
+![docker](3.8.png)
 * Create you ECR Repository image
 
 * Push you docker image to the ecr repository image
 
 * Check that your docker image has been successfully pushed image
-![docker](images/3.5.png)
+![docker](3.5.png)
 
 
 
 ## Task 3: Terraform Module for ECS
 * Write a Terraform module (modules/ecs/main.tf) to provision an ECS cluster and deploy the Dockerized web app.
-![docker](images/9.png)
+![docker](9.png)
 
 Access the application on your browser image
 
 ## Task 4: Main Terraform Configuration
 * Create the main Terraform configuration file (main.tf) in the root project directory.
 * Use the ECR and ECS modules to create the necessary infrastructure for hosting the web app.
-* ![docker](images/5.png)
+* ![docker](5.png)
 
 ## Task 5: Deployment
 * Build the Docker image of your web app.
@@ -61,17 +61,17 @@ Access the application on your browser image
 * Access the web app through the public IP or DNS of the ECS service.
 
 
-![docker](images/docker.png)
-![docker](images/docker2.png)
-![docker](images/4.1.png)
-![docker](images/4.2.png)
-![docker](images/1.png)
-![docker](images/2.png)
+![docker](docker.png)
+![docker](docker2.png)
+![docker](4.1.png)
+![docker](4.2.png)
+![docker](1.png)
+![docker](2.png)
 
 ## Task 6: Terraform Destroy
 * For Project Clean up.
-![docker](images/destroy.png)
-![docker](images/destroy2.png)
+![docker](destroy.png)
+![docker](destroy2.png)
 
 # Prerequisites
 * AWS CLI configured with access credentials
